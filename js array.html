@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+    <script>
+        var ary =[10,20,30,40,50];
+
+        var sum =0;
+       
+
+
+
+        //array value print
+        document.write(ary+"<br>");
+
+
+        document.write("<br>");
+
+        //array index value
+        document.write(ary[2]);
+        
+      
+        document.write("<ol>")
+
+        //print array in row 
+        for(var a=0; a<=4; a++){
+            document.write("<li>"+ ary[a] + " ");
+            sum = sum + ary[a];
+        }
+
+        document.write("</ol>")
+
+        document.write("<br>");
+        document.write("<br>");
+        //array value sum 
+        document.write("Total sum: " + sum);
+        
+    </script>
+</body>
+</html>
